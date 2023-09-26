@@ -12,6 +12,21 @@
   right: 0;
 }
 
+.image-captrure {
+  width: 100%;
+  margin-top: -250px;
+  display: none;
+  justify-content: space-between;
+  /* position: absolute; */
+}
+
+.active {
+  display: flex !important;
+}
+
+.image-captrure img {
+  height: 450px;
+}
 /* Transparent Overlay */
 .loading:before {
   content: '';
